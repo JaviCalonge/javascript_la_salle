@@ -1,135 +1,169 @@
-// userName es una variable que tiene dentro una String
-userName = "Omar";
-userSurname = 'Olmedo';
-const ESPACIO = " ";
+// // userName es una variable que tiene dentro una String
+// userName = "Omar";
+// userSurname = 'Olmedo';
+// const ESPACIO = " ";
 
-// una String con backticks es un template literal
-userTitle = `Professor`;
+// // una String con backticks es un template literal
+// userTitle = `Professor`;
 
-console.log(userTitle);
-console.log(userName);
-console.log(userSurname);
+// console.log(userTitle);
+// console.log(userName);
+// console.log(userSurname);
 
-console.log(userTitle, userName, userSurname);
+// console.log(userTitle, userName, userSurname);
 
-userName = "Pablo";
+// userName = "Pablo";
 
-console.log(userTitle + ' ' + userName + ' ' + userSurname);
-console.log(userTitle + ESPACIO + userName + ESPACIO + userSurname);
+// console.log(userTitle + ' ' + userName + ' ' + userSurname);
+// console.log(userTitle + ESPACIO + userName + ESPACIO + userSurname);
 
-userSurname = "Rodríguez";
+// userSurname = "Rodríguez";
 
-console.log(`¿Qué tal estás, ${userName} ${userSurname}?`);
+// console.log(`¿Qué tal estás, ${userName} ${userSurname}?`);
 
-userAge = 33; // Number
-userExperience = 10;
-userHasHair = false; // Boolean
+// userAge = 33; // Number
+// userExperience = 10;
+// userHasHair = false; // Boolean
 
-console.log(userName + userAge);
-console.log(userAge + userExperience);
+// console.log(userName + userAge);
+// console.log(userAge + userExperience);
 
-userExperience = "diez";
-console.log(userAge + userExperience);
+// userExperience = "diez";
+// console.log(userAge + userExperience);
 
-console.log("Edad: " + userAge, "\nAños de experiencia: " + userExperience);
+// console.log("Edad: " + userAge, "\nAños de experiencia: " + userExperience);
 
-// ESPACIO = "-";
+// // ESPACIO = "-";
 
-a = 1;
-b = 2;
+// a = 1;
+// b = 2;
 
-// c = a;
-// a = b;
-// b = c;
+// // c = a;
+// // a = b;
+// // b = c;
 
-[a, b] = [b, a]
+// [a, b] = [b, a]
 
-console.log(a, b); //2, 1
+// console.log(a, b); //2, 1
 
-animals = ["perro", "gato", "pajaro", "jirafa", "ballena"]
+// animals = ["perro", "gato", "pajaro", "jirafa", "ballena"]
 
-console.log(animals);
+// console.log(animals);
 
-console.log(animals.length);
+// console.log(animals.length);
 
-console.log(animals[2]);
-
-
-
-//--------------------------------------------------//
+// console.log(animals[2]);
 
 
-alumno = {
-  name: "Javier",
-  lastname: "Calonge",
-  ciudad: "Tarragona",
-  edad: 44,
-  hobbies: "Programar"
-}
 
-alumno.pueblo = "Ardenya"
+// //--------------------------------------------------//
 
-alumno.hobbies = "Estudiar"
 
-console.log(alumno.length);
+// alumno = {
+//   name: "Javier",
+//   lastname: "Calonge",
+//   ciudad: "Tarragona",
+//   edad: 44,
+//   hobbies: "Programar"
+// }
+
+// alumno.pueblo = "Ardenya"
+
+// alumno.hobbies = "Estudiar"
+
+// console.log(alumno.length);
 
 
 
 //_______---------------___________//
 
-familia = 
-[{
-  name: "Javier",
-  lastname: "Calonge",
-  ciudad: "Tarragona",
-  edad: 44,
-  hobbies: "Programar"
-}
-,
- {
-  name: "Juuli",
-  lastname: "Pylkannen",
-  ciudad: "Tarragona",
-  edad: 27,
-  hobbies: "Marketing"
-}
-,
- {
-  name: "Adrián",
-  lastname: "Garcia",
-  ciudad: "Cabrera",
-  edad: 12,
-  hobbies: "Futbol"
-}
-,
- {
-  name: "Álvaro",
-  lastname: "Garcia",
-  ciudad: "Cabrera",
-  edad: 9,
-  hobbies: "Música"
-}
-,
- {
-  name: "Nandy",
-  lastname: "Moreno",
-  ciudad: "Premia",
-  edad: 71,
-  hobbies: "Bailar"
-}]
+// familia = 
+// [{
+//   name: "Javier",
+//   lastname: "Calonge",
+//   ciudad: "Tarragona",
+//   edad: 44,
+//   hobbies: "Programar"
+// }
+// ,
+//  {
+//   name: "Juuli",
+//   lastname: "Pylkannen",
+//   ciudad: "Tarragona",
+//   edad: 27,
+//   hobbies: "Marketing"
+// }
+// ,
+//  {
+//   name: "Adrián",
+//   lastname: "Garcia",
+//   ciudad: "Cabrera",
+//   edad: 12,
+//   hobbies: "Futbol"
+// }
+// ,
+//  {
+//   name: "Álvaro",
+//   lastname: "Garcia",
+//   ciudad: "Cabrera",
+//   edad: 9,
+//   hobbies: "Música"
+// }
+// ,
+//  {
+//   name: "Nandy",
+//   lastname: "Moreno",
+//   ciudad: "Premia",
+//   edad: 71,
+//   hobbies: "Bailar"
+// }]
 
-familia[4].edad = 99;
-
-
-nombres = [familia[0].name, familia[1].name, familia[2].name, familia[3].name, familia[4].name]
-
-edades = [familia[0].edad + familia[1].edad + familia[2].edad + familia[3].edad + familia[4].edad]
+// familia[4].edad = 99;
 
 
-console.log(nombres);
-console.log(edades);
-console.log(nombres, edades);
+// nombres = [familia[0].name, familia[1].name, familia[2].name, familia[3].name, familia[4].name]
 
-console.log(`${familia[0].name} ${familia[0].lastname} tiene ${familia[0].edad} años, vive en ${familia[0].ciudad} y le gusta ${familia[0].hobbies}. ${familia[1].name} ${familia[1].lastname} tiene ${familia[1].edad} años, vive en ${familia[1].ciudad} y le gusta ${familia[1].hobbies}. ${familia[2].name} ${familia[2].lastname} tiene ${familia[2].edad} años, vive en ${familia[2].ciudad} y le gusta ${familia[2].hobbies}. ${familia[3].name} ${familia[3].lastname} tiene ${familia[3].edad} años, vive en ${familia[3].ciudad} y le gusta ${familia[3].hobbies}. ${familia[4].name} ${familia[4].lastname} tiene ${familia[4].edad} años, vive en ${familia[4].ciudad} y le gusta ${familia[4].hobbies}.`);
+// edades = [familia[0].edad + familia[1].edad + familia[2].edad + familia[3].edad + familia[4].edad]
 
-console.table(familia);
+// console.log(familia);
+// console.log(nombres);
+// console.log("Las edades sumadas son: " + edades);
+// console.log(nombres, edades);
+
+// console.log(`${familia[0].name} ${familia[0].lastname} tiene ${familia[0].edad} años, vive en ${familia[0].ciudad} y le gusta el ${familia[0].hobbies}. ${familia[1].name} ${familia[1].lastname} tiene ${familia[1].edad} años, vive en el ${familia[1].ciudad} y le gusta ${familia[1].hobbies}. ${familia[2].name} ${familia[2].lastname} tiene ${familia[2].edad} años, vive en ${familia[2].ciudad} y le gusta ${familia[2].hobbies}. ${familia[3].name} ${familia[3].lastname} tiene ${familia[3].edad} años, vive en ${familia[3].ciudad} y le gusta la ${familia[3].hobbies}. ${familia[4].name} ${familia[4].lastname} tiene ${familia[4].edad} años, vive en ${familia[4].ciudad} y le gusta ${familia[4].hobbies}.`);
+
+// console.table(familia);
+
+
+//_______---------------___________//
+
+
+text = "    Aquesta és una string que ha escrit l´Antoino per fer exercicis de mètodes    "
+
+//TODO: trim() pad...() replace() replaceAll() split() to...Case() slice()
+
+// console.log(text);
+// console.log(text.trim());
+// console.log(text.replace("string", "cousa"));
+// console.log(text.trim().replace("string", "cousa"));
+// console.log(text.replaceAll( " ", ","));
+// console.log(text.split(" "));
+// console.log(text.split(""));
+// console.log(text.split(","));
+// console.log(text.split("|"));
+
+// console.log(text.padStart(8, "x"));
+
+// dni = "38839496V"
+// console.log("DNI Completo: " + dni);
+// console.log("DNI ofuscado: " + dni.slice(4));
+// console.log("DNI ofuscado: " + dni.slice(4).padStart(6, "x"));
+// console.log("DNI ofuscado: " + dni.slice(4).padStart(9, "x"));
+// console.log("DNI ofuscado: " + dni.slice(4).padStart(9, "x").slice(0, -2).padEnd(9, "x"));
+
+console.log(text);
+
+nombre = text.split(" ")
+nombre[11] = "XXXX"
+
+console.log(nombre.join(" "));

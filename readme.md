@@ -13,15 +13,20 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 
 #### 29 de juny
 
-- repàs git
+- repàs git i Github
 - bones pràctiques
 - arrays, objectes
 
 #### 6 de juliol
 
 - corregir exercici arrays + objectes
-- state of javascript
-- exercici newsletter
+- `.toString()`, `parseFloat()`, `parseInt()`
+- mètodes d'[arrays](https://www.w3schools.com/js/js_array_methods.asp) i [strings](https://www.w3schools.com/js/js_string_methods.asp)
+- [cerca en strings](https://www.w3schools.com/js/js_string_search.asp)
+- bucles
+- condicionals
+- (funcions)
+- Altres: state of javascript, newsletter
 
 ## Recomendaciones y buenas prácticas
 
