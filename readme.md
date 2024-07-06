@@ -1,16 +1,27 @@
 # JavaScript La Salle
 
-Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de junio de 2024 - 27 de septiembre de 2024)
+Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny - 27 de setembre de 2024)
 
 ## Contenidos
 
-#### 28 de junio
+#### 28 de juny
 
 - hello world
 - execució en diferents parts de l'HTML
 - console.log()
 - variables -> tipus de dades
+
+#### 29 de juny
+
+- repàs git
+- bones pràctiques
 - arrays, objectes
+
+#### 6 de juliol
+
+- corregir exercici arrays + objectes
+- state of javascript
+- exercici newsletter
 
 ## Recomendaciones y buenas prácticas
 
@@ -39,6 +50,12 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juni
   - [Flexbox Froggy](https://flexboxfroggy.com/#es)
   - [Grid Garden](https://cssgridgarden.com/)
 - YouTube
+- Extensions VSC:
+  - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+  - [Open HTML in browser](https://marketplace.visualstudio.com/items?itemName=peakchen90.open-html-in-browser)
+  - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+  - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+  - [To-do tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
 ## Extres
 
