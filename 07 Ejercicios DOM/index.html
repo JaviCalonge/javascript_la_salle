@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjs@10.6.4/lib/browser/math.min.js"></script>
+  <title>DOM</title>
+</head>
+
+<body>
+
+  <h1>Ejercicios DOM</h1>
+
+  <main>
+
+    <br>
+    <br>
+
+    <input class="nombre" type="text" placeholder="Escribe tu nombre">
+
+    <div>
+      <h3>Elige tu pronombre</h3>
+
+      <label class="pronombre">
+        <input type="radio" name="pronombre" value="El">Él
+      </label>
+      <label class="pronombre">
+        <input type="radio" name="pronombre" value="Ella">Ella
+      </label>
+
+
+    </div>
+
+    <br>
+
+    <select id="color">
+      <option value="choose">Choose one color </option>
+      <option class="red" value="red">Red</option>
+      <option class="green" value="green">Green</option>
+      <option class="yellow" value="yellow">Yellow</option>
+    </select>
+
+    <br>
+    <br>
+
+    <input type="color" id="colores">
+
+    <br>
+
+    <button class="btn-hola">Saluda</button>
+
+    <p class="tu-nombre"></p>
+
+    <br>
+    <br>
+    <br>
+
+    <h3 class="titulo-temperatura">Escribe la temperatura en números que quieres pasar a Fº</h3>
+    <input type="text" class="temperatura" placeholder="">
+    <button class="btn-temperatura">de ºC a ºF</button>
+    <p class="ver-temperatura"></p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3 class="titulo-temperatura">Escribe la temperatura en números y elige a que medida la quieres convertir</h3>
+
+    <section class="convertidor">
+
+      <input class="input-convertidor" type="text">
+
+      <h3>De</h3>
+
+      <select class="select-convertidor-1">
+        <option value=""></option>
+        <option value="Celsius">Celsius</option>
+        <option value="Farenheit">Farenheit</option>
+        <option value="Kelvin">kelvin</option>
+      </select>
+
+      <h3>A</h3>
+
+      <select class="select-convertidor-2">
+        <option value=""></option>
+        <option value="Celsius">Celsius</option>
+        <option value="Farenheit">Farenheit</option>
+        <option value="Kelvin">kelvin</option>
+      </select>
+
+      <button class="btn-convertidor">Convertir</button>
+
+      <p class="ver-conversion"></p>
+
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <h3>CALCULADORA</h3>
+
+    <div class="num1">
+      <p>Escribe un número</p> <input class="num1-type" type="text">
+    </div>
+    <div class="num2">
+      <p>Escribe el segundo número</p> <input class="num2-type" type="text">
+    </div>
+    <div class="operaciones">
+      <p>Ahora elige que tipo de operación quieres realizar...</p>
+
+      <select class="operador">
+        <option value="escoger">Escoge una</option>
+        <option value="sumar">Sumar</option>
+        <option value="restar">Restar</option>
+        <option value="multiplicar">Multiplicar</option>
+        <option value="dividir">Dividir</option>
+      </select>
+      <button class="btn-calculadora">Calcula</button>
+    </div>
+
+    <p class="resultado-calculadora"></p>
+
+    <br>
+    <br>
+    <br>
+
+
+    <h3>CALCULADORA DIGITAL</h3>
+
+    <br>
+
+    <div class="calculadora">
+
+      <div class="pantalla-tecla">
+        <input class="pantalla" type="text" readonly>
+        <input type="button" class="tecla" id="shift" value="Shift">
+      </div>
+
+      <div class="teclas">
+
+        <div>
+          <input type="button" class="tecla" value="7">
+          <input type="button" class="tecla" value="4">
+          <input type="button" class="tecla" value="1">
+          <input type="button" class="tecla" value="C">
+
+        </div>
+        <div>
+          <input type="button" class="tecla" value="8">
+          <input type="button" class="tecla" value="5">
+          <input type="button" class="tecla" value="2">
+          <input type="button" class="tecla" value="0">
+
+        </div>
+        <div>
+          <input type="button" class="tecla" value="9">
+          <input type="button" class="tecla" value="6">
+          <input type="button" class="tecla" value="3">
+          <input type="button" class="tecla" value="=">
+        </div>
+        <div>
+          <input type="button" class="tecla" value="/">
+          <input type="button" class="tecla" value="*">
+          <input type="button" class="tecla" value="-">
+          <input type="button" class="tecla" value="+">
+        </div>
+
+      </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <h3>LISTA DE LA COMPRA</h3>
+
+    <div>
+      <input class="articulo" type="text" placeholder="Escribe qué quieres comprar">
+      <select class="secciones">
+        <option value="seccion">Elige sección</option>
+        <option value="fruteria">Frutería</option>
+        <option value="carniceria">Carnicería</option>
+        <option value="pescadería">Pescadería</option>
+        <option value="bebidas">Bebidas</option>
+        <option value="limpieza">Limpieza</option>
+      </select>
+      <button class="btn-lista">Añadir a la lista</button>
+    </div>
+
+    <h4>Artículos añadidos:</h4>
+
+    <button class="btn-ordenar">Ordenar A-Z</button>
+
+
+    <ul class="lista">
+
+    </ul>
+
+    <br>
+    <br>
+    <br>
+
+    <h3>SELECCIONA POR COLORES</h3>
+
+    <select class="colores">
+      <option value="elegir">Elige un color</option>
+      <option value="verde">Verde</option>
+      <option value="rojo">Rojo</option>
+      <option value="azul">Azul</option>
+      <option value="amarillo">Amarillo</option>
+      <option value="sin">Sin color</option>
+      <option value="todos">Todos</option>
+    </select>
+
+    <button class="btn-colores">Mostrar</button>
+
+    <p class="verde color">🟩 VERDE</p>
+    <p class="rojo color">🟥 ROJO</p>
+    <p class="azul color">🟦 AZUL</p>
+    <p class="amarillo color">🟨 AMARILLO</p>
+    <p class="sin color">Sin colores</p>
+    <p class="todos color">🟩🟥🟦🟨 TODOS</p>
+
+    <h3>Selector de Propiedades de una Caja</h3>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" placeholder="Introduce tu nombre"><br><br>
+
+    <label for="material">Material:</label>
+    <select id="comida">
+      <option value=""></option>
+      <option value="sushi">Sushi</option>
+      <option value="pizza">Pizza</option>
+      <option value="hamburguesa">Hamburguesa</option>
+    </select><br><br>
+
+    <label for="medida">Medida:</label>
+    <select id="medida">
+      <option value=""></option>
+      <option value="pequeño">Pequeño</option>
+      <option value="mediano">Mediano</option>
+      <option value="grande">Grande</option>
+    </select><br><br>
+
+    <label for="mensaje">Mensaje:</label>
+    <input type="text" id="mensaje" placeholder="Introduce un mensaje"><br><br>
+
+    <button id="btnGenerar">Generar Mensaje</button>
+
+    <p class="result" id="resultado"></p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+  </main>
+
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

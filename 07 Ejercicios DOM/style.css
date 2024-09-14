@@ -1,0 +1,243 @@
+body {
+  background-color: rgb(218, 218, 218);
+  font-family: 'Courier New', Courier, monospace;
+  margin: 40px;
+  height: 3000px;
+}
+
+.nombre {
+  background-color: rgb(158, 197, 255);
+  border: 2px solid #000;
+  border-radius: 6px;
+}
+
+.btn-hola {
+  margin-top: 20px;
+  background-color: #48e;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.tu-nombre {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.red {
+  background-color: red;
+  color: #fff;
+}
+
+.green {
+  background-color: green;
+  color: #fff;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.titulo-temperatura {
+  margin: 0;
+  padding: 0;
+}
+
+.temperatura {
+  width: 30px;
+  background-color: rgb(158, 197, 255);
+  border: 2px solid #000;
+  border-radius: 6px;
+  height: 28px;
+  text-indent: 7px;
+}
+
+.btn-temperatura {
+  margin-top: 20px;
+  background-color: #48e;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.ver-temperatura {
+  font-weight: bolder;
+}
+
+.convertidor {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.input-convertidor{
+  width: 30px;
+  height: 20px;
+  text-indent: 7px;
+}
+
+.select-convertidor {
+  height: 24px;
+}
+
+
+.btn-convertidor {
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.ver-conversion {
+  font-weight: bolder;
+}
+
+.num1, .num2, .operaciones {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+
+.num1-type, .num2-type {
+  width: 30px;
+  background-color: rgb(158, 197, 255);
+  border: 2px solid #000;
+  border-radius: 6px;
+  height: 20px;
+  text-indent: 7px;
+}
+
+.operador {
+  height: 24px;
+  background-color: rgb(158, 197, 255);
+}
+
+.btn-calculadora {
+  height: 26px;
+  background-color: rgb(158, 197, 255);
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.resultado-calculadora {
+  font-weight: bolder;
+}
+
+.pantalla-tecla {
+  display: flex;
+  gap: 10px;
+}
+
+#shift {
+  cursor: pointer;
+  background-color: rgb(186, 214, 255);
+  height: 45px;
+  width: 57px;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}
+
+.pantalla {
+  width: 200px;
+  height: 40px;
+  text-align: right;
+  margin-bottom: 12px;
+  border: 2px solid #000;
+  font-size: 30px;
+}
+
+.teclas {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 10px;
+}
+
+.tecla {
+  margin: 5px;
+  cursor: pointer;
+  background-color: rgb(186, 214, 255);
+  width: 100%;
+  height: 40px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.tecla:hover, #shift:hover {
+  background-color: rgb(96, 160, 255);;
+}
+
+.articulo{
+  width: 186px;
+  background-color: rgb(215, 231, 255);
+  border: 1px solid #000;
+  height: 24px;
+  border-radius: 6px;
+  font-weight: bolder;
+}
+
+.secciones {
+  width: 116px;
+  background-color: rgb(215, 231, 255);
+  border: 1px solid #000;
+  height: 27px;
+  border-radius: 6px;
+  font-weight: bolder;
+}
+
+.btn-lista, .btn-ordenar {
+  border: 1px solid #000;
+  height: 26px;
+  border-radius: 6px;
+  background-color: rgb(236, 244, 255);
+  cursor: pointer;
+}
+
+
+.btn-lista:hover {
+  background-color: rgb(0, 60, 151);
+  color: #fff;
+}
+
+.lista {
+  font-weight: bolder;
+}
+
+.color {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.show {
+  opacity: 1;
+  transition: opacity 2s;
+}
+
+.verde{
+  background-color: green;
+  color: #fff;
+}
+
+.rojo {
+  background-color: rgb(255, 121, 121);
+  color: #fff
+}
+
+.azul {
+  background-color: #48e;
+  color: #fff;
+}
+
+.amarillo {
+  background-color: yellow;
+}
+
+.result {
+  font-weight: bolder;
+  font-size: 19px;
+}
